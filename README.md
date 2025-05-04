@@ -35,6 +35,16 @@ This project implements a 4-wire RTD signal conditioning and acquisition system 
 ## 🧮 Vref Calculation
 
 The reference voltage for the op-amp stages is generated using the following resistor network:
+     Vcc
+      |
+     R2 = 3.9kΩ
+      |
+     +--- Vref ---+
+     |            |
+   R1 = 1.62kΩ    R3 = 3.9kΩ
+     |            |
+    GND          GND
+
 
 
 ## 🔧 To Do
