@@ -36,3 +36,8 @@ This project implements a 4-wire RTD signal conditioning and acquisition system 
 
 The reference voltage for the op-amp stages is generated using the following resistor network:
 
+
+## 🔧 To Do
+- [ ] Add OTA update capability
+- [ ] Support for more RTD types (e.g., Ni120)
+- [ ] Include temperature calibration offset
